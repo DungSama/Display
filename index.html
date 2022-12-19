@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Display</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="./css/all.min.css" /> -->
+  <link rel="stylesheet" href="./css/app.css" />
+</head>
+
+<body>
+  <!-- sass ./sass/app.scss ./css/app.css --watch -->
+  <div class="wrapper">
+    <header class="header">
+      <div class="container-fluid">
+        <div class="header-main">
+          <img srcset="./images/logo2.png 2x" alt="" class="header-log" />
+          <div class="menu-bg"></div>
+          <form class="header-form">
+            <div class="form-search">
+              <img src="images/icon_search.svg">
+              <input class="input-search" type="search" id="search" name="q" placeholder="Nhập từ khóa tìm kiếm" />
+            </div>
+          </form>
+          <div class="header-group">
+            <img src="images/icon_phone.svg" alt="">
+            <span>076.602.1591</span>
+            <img src="images/icon_info.svg" alt="">
+            <span>Đăng Nhập <br> Tài khoản</span>
+          </div>
+          <i class="fal fa-bars menu-toggle"></i>
+          <i class="fal fa-times menu-close"></i>
+        </div>
+        <ul class="menu">
+          <li class="menu-item" style="padding-left: 17px; padding-bottom: 19px;">
+            <a href="#home" class="menu-link"></a>><img src="images/icon_home.svg" alt="logo"></a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">GIỚI THIỆU</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">SỬA MÀN HÌNH TƯƠNG TÁC</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">SỬA MÀN HÌNH QUẢNG CÁO LCD</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">SỬA TIVI</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">CUNG CẤP LINH KIỆN - PHỤ KIỆN</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">TIN TỨC</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">LIÊN HỆ</a>
+          </li>
+        </ul>
+      </div>
+      <section class="silder">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" srcset="images/slide.png 2x" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" srcset="images/slide.png 2x" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" srcset="images/slide.png 2x" alt="Third slide">
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container-fluid" style="padding-top: 60px;">
+          <div class="hero-main">
+            <div class="hero-image">
+              <img srcset="./images/illustration.png 2x" alt="" />
+            </div>
+            <div class="hero-content">
+              <h1 class="hero-heading">GIỚI THIỆU</h1>
+              <div class="hero-desc">
+                Khởi đầu là một Trung Tâm sửa chữa điện tử nhỏ với 03 kỹ sư có kinh nghiệm sửa chữa và bảo hành các sản
+                phẩm Philips, Sharp, Samsung, Sony, Toshiba….. Khách hàng là những gia đình sống trong cùng địa bàn.
+                <br /><br />
+                Sau 01 năm hoạt động, Trung Tâm đã phát triển và mở rộng đối tượng khách hàng. Chúng tôi không chỉ phục
+                vụ khách hàng là những hộ gia đình, mà còn mở rộng phục vụ khách hàng công ty, văn phòng, trường học.
+                <br /><br />
+                <span>“Chúng tôi luôn là đối tác tin cậy của bạn”</span>
+              </div>
+              <a href="#!" class="button button--primary">XEM THÊM</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="story">
+        <div class="container">
+          <h2 class="global-heading global-heading--center article-heading" style="color: #ffff; padding-top: 90px;">
+            DỊCH VỤ CUNG CẤP
+          </h2>
+          <div class="story-list">
+            <div class="story-item">
+              <div class="story-image">
+                <img srcset="./images/repair1.png 2x" />
+              </div>
+              <p class="story-content">SỬA CHỮA MÀN HÌNH TƯƠNG TÁC</p>
+            </div>
+            <div class="story-item">
+              <div class="story-image">
+                <img srcset="./images/repair2.png 2x" />
+              </div>
+              <p class="story-content">SỬA MÀN HÌNH QUẢNG CÁO LCD</p>
+            </div>
+            <div class="story-item">
+              <div class="story-image">
+                <img srcset="./images/repair3.png 2x" />
+              </div>
+              <p class="story-content">SỮA CHỮA TIVI</p>
+            </div>
+            <div class="story-item">
+              <div class="story-image">
+                <img srcset="./images/repair4.png 2x" />
+              </div>
+              <p class="story-content">CUNG CẤP LINH KIỆN - PHỤ KIỆN</p>
+            </div>
+          </div>
+          <div class="story-about">
+            <div class="list-about">
+              <div class="about-item display-flex">
+                <img srcset="./images/about1.png 2x" />
+                <div>
+                  <h3>24/7</h3>
+                  <p>Chúng tôi hỗ trợ cho khách hàng nhanh chóng và miễn phí 24/7</p>
+                </div>
+              </div>
+              <div class="about-item display-flex">
+                <div>
+                  <h3>24/7</h3>
+                  <p>Chúng tôi hỗ trợ cho khách hàng nhanh chóng và miễn phí 24/7</p>
+                </div>
+              </div>
+              <div class="about-item display-flex">
+                <img srcset="./images/about1.png 2x" />
+                <div>
+                  <h3>24/7</h3>
+                  <p>Chúng tôi hỗ trợ cho khách hàng nhanh chóng và miễn phí 24/7</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="service" style="height: 1431px;">
+        <div class="container">
+          <div class="service-header">
+            <h2 class="global-heading global-heading--center" style="padding-top: 145px">
+              SỬA MÀN HÌNH TƯƠNG TÁC THÔNG MINH
+            </h2>
+            <div class="btn-group">
+              <button class="btn-color">Sửa bo nguồn</button>
+              <button class="btn-color">Sửa lỗi cảm ứng</button>
+              <button class="btn-color">Sửa Màn hình tương tác vỡ cường lực</button>
+              <button class="btn-color">Thay tấm nền Màn hình</button>
+              <button class="btn-color">Vệ sinh Màn hình tương tác</button>
+              <button class="btn-color">Nâng cấp Android </button>
+              <button class="btn-color">Nâng cấp OPS</button>
+              <button class="btn-color">Sửa bo cao áp bo (backlight board)</button>
+              <button class="btn-color">Thay đèn nền (led Backlight)</button>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-item">
+              <div class="service-image">
+                <img srcset="./images/service1.png 2x" alt="" />
+              </div>
+              <div class="service-desc">Sủa chữa bo nguồn</div>
+              <button class="button--contact">LIÊN HỆ</button>
+            </div>
+            <div class="service-item">
+              <div class="service-image">
+                <img srcset="./images/service1.png 2x" alt="" />
+              </div>
+              <div class="service-desc">Sủa chữa bo nguồn</div>
+              <button class="button--contact">LIÊN HỆ</button>
+            </div>
+            <div class="service-item">
+              <div class="service-image">
+                <img srcset="./images/service1.png 2x" alt="" />
+              </div>
+              <div class="service-desc">Sủa chữa bo nguồn</div>
+              <button class="button--contact">LIÊN HỆ</button>
+            </div>
+            <div class="service-item">
+              <div class="service-image">
+                <img srcset="./images/service1.png 2x" alt="" />
+              </div>
+              <div class="service-desc">Sủa chữa bo nguồn</div>
+              <button class="button--contact">LIÊN HỆ</button>
+            </div>
+            <div class="service-item">
+              <div class="service-image">
+                <img srcset="./images/service1.png 2x" alt="" />
+              </div>
+              <div class="service-desc">Sủa chữa bo nguồn</div>
+              <button class="button--contact">LIÊN HỆ</button>
+            </div>
+            <div class="service-item">
+              <div class="service-image">
+                <img srcset="./images/service1.png 2x" alt="" />
+              </div>
+              <div class="service-desc">Sủa chữa bo nguồn</div>
+              <button class="button--contact">LIÊN HỆ</button>
+            </div>
+
+          </div>
+          <a href="#!" class="button button--primary center-inline">XEM THÊM</a>
+      </section>
+
+      <section class="service" style="background-color: #ffff; height: 1380px;">
+        <div class="container">
+          <div class="service-header">
+            <h2 class="global-heading global-heading--center">
+              SỬA CHỮA MÀN HÌNH QUẢNG CÁO TẠI NHÀ
+            </h2>
+            <div class="btn-group">
+              <button class="btn-color btn-while">Sửa bo nguồn</button>
+              <button class="btn-color btn-while">Sửa lỗi cảm ứng</button>
+              <button class="btn-color">Sửa Màn hình tương tác vỡ cường lực</button>
+              <button class="btn-color">Thay tấm nền Màn hình</button>
+              <button class="btn-color">Vệ sinh Màn hình quảng cáo </button>
+              <button class="btn-color">Nâng cấp Android </button>
+              <button class="btn-color">Sửa bo cao áp bo (backlight board)</button>
+              <button class="btn-color">Nâng cấp Ram, SSD cho máy chạy windows</button>
+              <button class="btn-color">Nâng cấp OPS</button>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-item">
+              <div class="service-image">
+                <img srcset="./images/service1.png 2x" alt="" />
+              </div>
+              <div class="service-desc">Sủa chữa bo nguồn</div>
+              <button class="button--contact">LIÊN HỆ</button>
+            </div>
+            <div class="service-item">
+              <div class="service-image">
+                <img srcset="./images/service1.png 2x" alt="" />
+              </div>
+              <div class="service-desc">Sủa chữa bo nguồn</div>
+              <button class="button--contact">LIÊN HỆ</button>
+            </div>
+            <div class="service-item">
+              <div class="service-image">
+                <img srcset="./images/service1.png 2x" alt="" />
+              </div>
+              <div class="service-desc">Sủa chữa bo nguồn</div>
+              <button class="button--contact">LIÊN HỆ</button>
+            </div>
+            <div class="service-item">
+              <div class="service-image">
+                <img srcset="./images/service1.png 2x" alt="" />
+              </div>
+              <div class="service-desc">Sủa chữa bo nguồn</div>
+              <button class="button--contact">LIÊN HỆ</button>
+            </div>
+            <div class="service-item">
+              <div class="service-image">
+                <img srcset="./images/service1.png 2x" alt="" />
+              </div>
+              <div class="service-desc">Sủa chữa bo nguồn</div>
+              <button class="button--contact">LIÊN HỆ</button>
+            </div>
+            <div class="service-item">
+              <div class="service-image">
+                <img srcset="./images/service1.png 2x" alt="" />
+              </div>
+              <div class="service-desc">Sủa chữa bo nguồn</div>
+              <button class="button--contact">LIÊN HỆ</button>
+            </div>
+
+          </div>
+          <a href="#!" class="button button--primary center-inline">XEM THÊM</a>
+      </section>
+      <section class="service" style="background-color: #ECF4FA; height: 814px;">
+        <div class="container">
+          <div class="service-header">
+            <h2 class="global-heading global-heading--center">
+              SỬA CHỮA TIVI
+            </h2>
+            <div class="btn-group">
+              <button class="btn-color btn-header">Sửa bo nguồn</button>
+              <button class="btn-color btn-header">Sửa lỗi cảm ứng</button>
+              <button class="btn-color btn-header">Sửa Màn hình tương tác vỡ cường lực</button>
+              <button class="btn-color btn-header">Thay tấm nền Màn hình</button>
+              <button class="btn-color btn-header">Vệ sinh Màn hình quảng cáo </button>
+              <button class="btn-color btn-header">Nâng cấp Android </button>
+            </div>
+          </div>
+          <div class="service-list">
+            <div class="service-item">
+              <div class="service-image">
+                <img srcset="./images/service1.png 2x" alt="" />
+              </div>
+              <div class="service-desc">Sửa bo nguồn</div>
+              <button class="button--contact">LIÊN HỆ</button>
+            </div>
+            <div class="service-item">
+              <div class="service-image">
+                <img srcset="./images/service1.png 2x" alt="" />
+              </div>
+              <div class="service-desc">Sửa chữa bo nguồn cảm ứng</div>
+              <button class="button--contact">LIÊN HỆ</button>
+            </div>
+            <div class="service-item">
+              <div class="service-image">
+                <img srcset="./images/service1.png 2x" alt="" />
+              </div>
+              <div class="service-desc">Sửa chữa tấm nền Tivi</div>
+              <button class="button--contact">LIÊN HỆ</button>
+            </div>
+          </div>
+          <a href="#!" class="button button--primary center-inline">XEM THÊM</a>
+      </section>
+      <section class="service colums4">
+        <div class="container" style="height: 814px;">
+          <div class="service-header">
+            <h2 class="global-heading global-heading--center">
+              CUNG CẤP LINH KIỆN - PHỤ KIỆN
+            </h2>
+            <div class="btn-group">
+              <button class="btn-color btn-header" style="width: 400px;">Linh kiện - phụ kiện Tivi</button>
+              <button class="btn-color btn-header" style="width: 400px;">Linh kiện Màn hình tương tác </button>
+              <button class="btn-color btn-header" style="width: 400px;">Linh kiện Màn hình quảng cáo </button>
+            </div>
+          </div>
+          <div class="service-list gap" style="height: 342px; ">
+            <div class="service-accessory">
+              <div class="service-image">
+                <img srcset="./images/linhkien1.png 2x" alt="" />
+              </div>
+              <div class="service-desc accessory">Sửa bo nguồn</div>
+              <button class="button--contact btn-service">LIÊN HỆ</button>
+            </div>
+            <div class="service-accessory">
+              <div class="service-image" style="border-radius: 10px;">
+                <img srcset="./images/linhkien1.png 2x" alt="" />
+              </div>
+              <div class="service-descn accessory">Sửa chữa bo nguồn cảm ứng</div>
+              <button class="button--contact btn-service">LIÊN HỆ</button>
+            </div>
+            <div class="service-accessory">
+              <div class="service-image">
+                <img srcset="./images/linhkien1.png 2x" alt="" />
+              </div>
+              <div class="service-desc accessory">Sửa chữa tấm nền Tivi</div>
+              <button class="button--contact btn-service">LIÊN HỆ</button>
+            </div>
+            <div class="service-accessory">
+              <div class="service-image">
+                <img srcset="./images/linhkien1.png 2x" alt="" />
+              </div>
+              <div class="service-desc accessory">Sửa chữa tấm nền Tivi</div>
+              <button class="button--contact btn-service">LIÊN HỆ</button>
+            </div>
+          </div>
+          <a href="#!" class="button button--primary center-inline">XEM THÊM</a>
+      </section>
+      <section class="service">
+        <div class="container" style="height: 556px;">
+          <div class="service-header">
+            <h2 class="global-heading global-heading--center">
+              VIDEO CLIP ỨNG DỤNG CỦA MÀN HÌNH QUẢNG CÁO
+            </h2>
+          </div>
+          <div class="service-list grid-gap" style="height: 359px; ">
+            <div class="service-video">
+              <div class="service-image">
+                <img srcset="./images/vd1.png" alt="" />
+              </div>
+              <div class="service-desc-video">Sửa bo nguồn</div>
+            </div>
+            <div class="service-video">
+              <div class="service-image" style="border-radius: 10px;">
+                <img srcset="./images/vd1.png" alt="" />
+              </div>
+              <div class="service-desc-video">Sửa chữa bo nguồn cảm ứng</div>
+            </div>
+            <div class="service-video">
+              <div class="service-image">
+                <img srcset="./images/vd1.png" alt="" />
+              </div>
+              <div class="service-desc-video">Sửa chữa tấm nền Tivi</div>
+            </div>
+          </div>
+      </section>
+
+      <section class="service" style="height: 580px; background-color: #ffff;">
+        <div class="container">
+          <div class="service-header">
+            <h2 class="global-heading global-heading--center">
+              BÁO CHÍ NÓI VỀ CHÚNG TÔI
+            </h2>
+          </div>
+          <div class="service-list gap" style="height: 359px; ">
+            <div class="service-video">
+              <div class="service-image img">
+                <img srcset="./images/baochi1.png 2x" alt="" />
+              </div>
+            </div>
+            <div class="service-video">
+              <div class="service-image img" style="border-radius: 10px;">
+                <img srcset="./images/baochi1.png 2x" alt="" />
+              </div>
+            </div>
+            <div class="service-video">
+              <div class="service-image img">
+                <img srcset="./images/baochi1.png 2x" alt="" />
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="review">
+        <div class="container">
+          <div class="review-main">
+            <img srcset="./images/img-dots.png 2x" alt="" class="global-dots review-dots2" />
+            <h2 class="global-heading global-heading--center review-heading">
+              What our customer are saying
+            </h2>
+            <div class="review-list">
+              <div class="review-content">
+                <div class="review-customer">
+                  <div class="review-avatar">
+                    <img
+                      src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+                      alt="" />
+                  </div>
+                  <div class="review-info">
+                    <h3 class="review-name">Edward Newgate</h3>
+                    <div class="review-job">Founder Circle</div>
+                  </div>
+                </div>
+                <div class="review-desc">
+                  “Our dedicated patient engagement app and web portal allow
+                  you to access information instantaneously (no tedeous form,
+                  long calls, or administrative hassle) and securely”
+                </div>
+              </div>
+
+              <div class="review-content">
+                <div class="review-customer">
+                  <div class="review-avatar">
+                    <img
+                      src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+                      alt="" />
+                  </div>
+                  <div class="review-info">
+                    <h3 class="review-name">Edward Newgate</h3>
+                    <div class="review-job">Founder Circle</div>
+                  </div>
+                </div>
+                <div class="review-desc">
+                  “Our dedicated patient engagement app and web portal allow
+                  you to access information instantaneously (no tedeous form,
+                  long calls, or administrative hassle) and securely”
+                </div>
+              </div>
+
+              <div class="review-content">
+                <div class="review-customer">
+                  <div class="review-avatar">
+                    <img
+                      src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+                      alt="" />
+                  </div>
+                  <div class="review-info">
+                    <h3 class="review-name">Edward Newgate</h3>
+                    <div class="review-job">Founder Circle</div>
+                  </div>
+                </div>
+                <div class="review-desc">
+                  “Our dedicated patient engagement app and web portal allow
+                  you to access information instantaneously (no tedeous form,
+                  long calls, or administrative hassle) and securely”
+                </div>
+              </div>
+
+              <div class="review-content">
+                <div class="review-customer">
+                  <div class="review-avatar">
+                    <img
+                      src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+                      alt="" />
+                  </div>
+                  <div class="review-info">
+                    <h3 class="review-name">Edward Newgate</h3>
+                    <div class="review-job">Founder Circle</div>
+                  </div>
+                </div>
+                <div class="review-desc">
+                  “Our dedicated patient engagement app and web portal allow
+                  you to access information instantaneously (no tedeous form,
+                  long calls, or administrative hassle) and securely”
+                </div>
+              </div>
+
+              <div class="review-content">
+                <div class="review-customer">
+                  <div class="review-avatar">
+                    <img
+                      src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+                      alt="" />
+                  </div>
+                  <div class="review-info">
+                    <h3 class="review-name">Edward Newgate</h3>
+                    <div class="review-job">Founder Circle</div>
+                  </div>
+                </div>
+                <div class="review-desc">
+                  “Our dedicated patient engagement app and web portal allow
+                  you to access information instantaneously (no tedeous form,
+                  long calls, or administrative hassle) and securely”
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="review-navigation"></div>
+        </div>
+      </section>
+      <section class="article">
+        <div class="container">
+          <h2 class="global-heading global-heading--center article-heading">
+            Check out our latest article
+          </h2>
+          <div class="article-container">
+            <img srcset="./images/img-dots.png 2x" alt="" class="global-dots article-dots" />
+            <div class="article-list">
+              <div class="article-item">
+                <div class="article-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+                    alt="" />
+                </div>
+                <div class="article-content">
+                  <h3 class="article-title">
+                    Disease detection, check up in the laboratory
+                  </h3>
+                  <div class="article-desc">
+                    In this case, the role of the health laboratory is very
+                    important to do a disease detection In this case, the role
+                    of the health laboratory is very important to do a disease
+                    detection
+                  </div>
+                  <a href="#!" class="article-details">
+                    <span>Read more</span>
+                    <i class="fal fa-long-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="article-item">
+                <div class="article-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+                    alt="" />
+                </div>
+                <div class="article-content">
+                  <h3 class="article-title">
+                    Herbal medicines that are safe for consumption
+                  </h3>
+                  <div class="article-desc">
+                    Herbal medicine is very widely used at this time because
+                    of its very good for your health
+                  </div>
+                  <a href="#!" class="article-details">
+                    <span>Read more</span>
+                    <i class="fal fa-long-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="article-item">
+                <div class="article-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+                    alt="" />
+                </div>
+                <div class="article-content">
+                  <h3 class="article-title">
+                    Natural care for healthy facial skin
+                  </h3>
+                  <div class="article-desc">
+                    A healthy lifestyle should start from now and also for
+                    your skin health. There are some
+                  </div>
+                  <a href="#!" class="article-details">
+                    <span>Read more</span>
+                    <i class="fal fa-long-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#!" class="button button--secondary center-inline">View all</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="footer-main">
+          <div class="footer-column">
+            <img srcset="./images/logo-white.png 2x" alt="" class="footer-logo" />
+            <div class="footer-desc">
+              Trafalgar provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone
+            </div>
+            <div class="footer-copyright">
+              ©Trafalgar PTY LTD 2020. All rights reserved
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3 class="footer-heading">Company</h3>
+            <ul class="footer-links">
+              <li class="footer-item">
+                <a href="#!" class="footer-link">About</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3 class="footer-heading">Company</h3>
+            <ul class="footer-links">
+              <li class="footer-item">
+                <a href="#!" class="footer-link">About</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3 class="footer-heading">Company</h3>
+            <ul class="footer-links">
+              <li class="footer-item">
+                <a href="#!" class="footer-link">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
